@@ -1,0 +1,129 @@
+body {
+    font-family: sans-serif;
+}
+
+
+.logo-content {
+    padding: 10px;
+}
+
+.body-content {
+
+    max-width: 700px;
+    max-height: 800px;
+    border: solid 1px #CCCCCC;
+
+}
+
+.img-side img {
+
+    height: 515px;
+    width: 235px;
+
+}
+
+.content-main {
+
+    margin-left: 250px;
+    position: absolute;
+    top: 0;
+    width: 398px;
+}
+
+
+
+
+.top-content p {
+    font-size: 1.12em;
+    font-weight: 300;
+    color: #353535;
+
+}
+
+
+.top-content h2 {
+
+    font-size: 1.12em;
+    color: #353535;
+
+
+}
+.top-content h3 {
+
+    font-size: 1.12em;
+    color: #353535;
+
+
+}
+
+
+.user-name {
+
+    color: #065df9!important;
+}
+
+
+.top-content a {
+
+    text-decoration: none;
+    color: #065df9;
+    font-weight: 600;
+
+}
+
+.bottom-content p {
+
+    font-size: 1.12em;
+    font-weight: 300;
+    color: #353535;
+
+}
+
+
+.btn-recover-password {
+
+    background: transparent;
+    border: solid 2px #065df9;
+    color: #065df9;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-align: center;
+    display: block;
+    width: 200px;
+    margin: auto;
+    font-weight: 600;
+    font-size: 1em;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.bottom-content p a  {
+
+    text-decoration: none;
+    color: #065df9;
+    font-weight: 600;
+
+}
+.bottom-content p   {
+
+    font-size: 1.12em;
+    font-weight: 300;
+    color: #353535;
+
+}
+.social-network {
+    float: right;
+    margin-top: -42px;
+}
+.footer-content p {
+
+    color: #707070;
+    font-size: 0.87em;
+    font-weight: 300;
+}
+
+
+.footer-content img {
+
+    cursor: pointer;
+}

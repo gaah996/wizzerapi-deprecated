@@ -1,0 +1,220 @@
+[09-Jan-2019 18:42:01 UTC] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home1/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home1/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('view')
+#1 /home1/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('view')
+#2 /home1/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('view', Array)
+#3 /home1/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(732): Illuminate\Container\Container->make('view', Array)
+#4 /home1/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(110): Illuminate\Foundation\Application->make('view', Array)
+#5 /home1/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Il in /home1/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[09-Jan-2019 18:42:49 UTC] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home1/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home1/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('view')
+#1 /home1/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('view')
+#2 /home1/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('view', Array)
+#3 /home1/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(732): Illuminate\Container\Container->make('view', Array)
+#4 /home1/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(110): Illuminate\Foundation\Application->make('view', Array)
+#5 /home1/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Il in /home1/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[11-Jan-2019 12:20:46 UTC] PHP Fatal error:  Access level to App\PlanRule::$primaryKey must be protected (as in class Illuminate\Database\Eloquent\Model) or weaker in /home1/wizzerco/api.wizzer.com.br/app/PlanRule.php on line 10
+[11-Jan-2019 15:28:06 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Controller' not found in /home1/wizzerco/api.wizzer.com.br/app/Http/Controllers/PropertiesController.php on line 9
+[11-Jan-2019 15:30:55 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Controller' not found in /home1/wizzerco/api.wizzer.com.br/app/Http/Controllers/PropertiesController.php on line 9
+[11-Jan-2019 15:31:30 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Controller' not found in /home1/wizzerco/api.wizzer.com.br/app/Http/Controllers/PropertiesController.php on line 9
+[11-Jan-2019 15:32:06 UTC] PHP Fatal error:  Class 'App\Exceptions\Controller' not found in /home1/wizzerco/api.wizzer.com.br/app/Http/Controllers/PropertiesController.php on line 10
+[11-Jan-2019 15:32:34 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Controller' not found in /home1/wizzerco/api.wizzer.com.br/app/Http/Controllers/PropertiesController.php on line 11
+[11-Jan-2019 15:36:44 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Controller' not found in /home1/wizzerco/api.wizzer.com.br/app/Http/Controllers/PropertiesController.php on line 11
+[11-Jan-2019 15:37:35 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Controller' not found in /home1/wizzerco/api.wizzer.com.br/app/Http/Controllers/PropertiesController.php on line 11
+[11-Jan-2019 15:38:16 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Controller' not found in /home1/wizzerco/api.wizzer.com.br/app/Http/Controllers/PropertiesController.php on line 11
+[11-Jan-2019 15:39:03 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Controller' not found in /home1/wizzerco/api.wizzer.com.br/app/Http/Controllers/PropertiesController.php on line 13
+[11-Jan-2019 15:40:01 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Controller' not found in /home1/wizzerco/api.wizzer.com.br/app/Http/Controllers/PropertiesController.php on line 13
+[21-Jan-2019 13:25:07 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[21-Jan-2019 13:25:35 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[21-Jan-2019 13:29:03 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[21-Jan-2019 13:36:06 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[21-Jan-2019 13:36:59 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[21-Jan-2019 13:37:27 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[21-Jan-2019 13:40:04 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[21-Jan-2019 13:41:42 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[21-Jan-2019 13:46:19 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[21-Jan-2019 13:46:46 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[21-Jan-2019 13:49:24 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[24-Jan-2019 19:39:54 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[24-Jan-2019 19:41:06 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[24-Jan-2019 19:43:17 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[25-Jan-2019 11:12:50 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[25-Jan-2019 11:12:56 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[25-Jan-2019 11:13:35 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[25-Jan-2019 11:14:28 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[25-Jan-2019 11:15:52 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[25-Jan-2019 11:17:58 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[25-Jan-2019 11:18:09 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[25-Jan-2019 11:22:42 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[25-Jan-2019 11:23:23 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[25-Jan-2019 11:23:25 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[25-Jan-2019 11:24:24 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[25-Jan-2019 11:24:55 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[25-Jan-2019 11:25:43 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[25-Jan-2019 11:25:45 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[31-Jan-2019 16:24:44 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home1/wizzerco/api.wizzer.com.br/app/Http/Controllers/MediaSocialController.php on line 4
+[31-Jan-2019 16:24:50 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home1/wizzerco/api.wizzer.com.br/app/Http/Controllers/MediaSocialController.php on line 4
+[31-Jan-2019 16:30:59 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home1/wizzerco/api.wizzer.com.br/app/Http/Controllers/MediaSocialController.php on line 4
+[31-Jan-2019 16:32:53 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home1/wizzerco/api.wizzer.com.br/app/Http/Controllers/MediaSocialController.php on line 4
+[31-Jan-2019 16:39:09 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home1/wizzerco/api.wizzer.com.br/app/Http/Controllers/MediaSocialController.php on line 4
+[31-Jan-2019 16:40:21 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home1/wizzerco/api.wizzer.com.br/app/Http/Controllers/MediaSocialController.php on line 4
+[31-Jan-2019 16:42:55 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home1/wizzerco/api.wizzer.com.br/app/Http/Controllers/MediaSocialController.php on line 4
+[31-Jan-2019 16:45:13 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home1/wizzerco/api.wizzer.com.br/app/Http/Controllers/MediaSocialController.php on line 4
+[15-Feb-2019 16:12:06 UTC] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('view')
+#1 /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('view')
+#2 /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('view', Array)
+#3 /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(732): Illuminate\Container\Container->make('view', Array)
+#4 /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(110): Illuminate\Foundation\Application->make('view', Array)
+#5 /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminat in /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[15-Feb-2019 16:12:06 UTC] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('view')
+#1 /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('view')
+#2 /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('view', Array)
+#3 /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(732): Illuminate\Container\Container->make('view', Array)
+#4 /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(110): Illuminate\Foundation\Application->make('view', Array)
+#5 /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminat in /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[15-Feb-2019 16:12:06 UTC] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('view')
+#1 /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('view')
+#2 /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('view', Array)
+#3 /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(732): Illuminate\Container\Container->make('view', Array)
+#4 /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(110): Illuminate\Foundation\Application->make('view', Array)
+#5 /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminat in /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[15-Feb-2019 16:12:06 UTC] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('view')
+#1 /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('view')
+#2 /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('view', Array)
+#3 /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(732): Illuminate\Container\Container->make('view', Array)
+#4 /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(110): Illuminate\Foundation\Application->make('view', Array)
+#5 /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminat in /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[15-Feb-2019 16:12:49 UTC] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('view')
+#1 /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('view')
+#2 /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('view', Array)
+#3 /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(732): Illuminate\Container\Container->make('view', Array)
+#4 /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(110): Illuminate\Foundation\Application->make('view', Array)
+#5 /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminat in /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[15-Feb-2019 16:12:49 UTC] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('view')
+#1 /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('view')
+#2 /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('view', Array)
+#3 /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(732): Illuminate\Container\Container->make('view', Array)
+#4 /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(110): Illuminate\Foundation\Application->make('view', Array)
+#5 /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminat in /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[15-Feb-2019 16:12:49 UTC] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('view')
+#1 /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('view')
+#2 /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('view', Array)
+#3 /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(732): Illuminate\Container\Container->make('view', Array)
+#4 /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(110): Illuminate\Foundation\Application->make('view', Array)
+#5 /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminat in /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[15-Feb-2019 16:12:49 UTC] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('view')
+#1 /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('view')
+#2 /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('view', Array)
+#3 /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(732): Illuminate\Container\Container->make('view', Array)
+#4 /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(110): Illuminate\Foundation\Application->make('view', Array)
+#5 /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminat in /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[15-Feb-2019 16:13:25 UTC] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('view')
+#1 /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('view')
+#2 /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('view', Array)
+#3 /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(732): Illuminate\Container\Container->make('view', Array)
+#4 /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(110): Illuminate\Foundation\Application->make('view', Array)
+#5 /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminat in /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[15-Feb-2019 16:13:25 UTC] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('view')
+#1 /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('view')
+#2 /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('view', Array)
+#3 /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(732): Illuminate\Container\Container->make('view', Array)
+#4 /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(110): Illuminate\Foundation\Application->make('view', Array)
+#5 /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminat in /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[15-Feb-2019 16:13:25 UTC] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('view')
+#1 /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('view')
+#2 /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('view', Array)
+#3 /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(732): Illuminate\Container\Container->make('view', Array)
+#4 /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(110): Illuminate\Foundation\Application->make('view', Array)
+#5 /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminat in /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[15-Feb-2019 16:13:26 UTC] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('view')
+#1 /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('view')
+#2 /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('view', Array)
+#3 /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(732): Illuminate\Container\Container->make('view', Array)
+#4 /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(110): Illuminate\Foundation\Application->make('view', Array)
+#5 /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminat in /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[15-Feb-2019 16:14:42 UTC] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('view')
+#1 /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('view')
+#2 /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('view', Array)
+#3 /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(732): Illuminate\Container\Container->make('view', Array)
+#4 /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(110): Illuminate\Foundation\Application->make('view', Array)
+#5 /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminat in /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[15-Feb-2019 16:14:42 UTC] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('view')
+#1 /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('view')
+#2 /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('view', Array)
+#3 /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(732): Illuminate\Container\Container->make('view', Array)
+#4 /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(110): Illuminate\Foundation\Application->make('view', Array)
+#5 /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminat in /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[15-Feb-2019 16:14:55 UTC] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('view')
+#1 /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('view')
+#2 /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('view', Array)
+#3 /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(732): Illuminate\Container\Container->make('view', Array)
+#4 /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(110): Illuminate\Foundation\Application->make('view', Array)
+#5 /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminat in /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[15-Feb-2019 16:14:55 UTC] PHP Fatal error:  Uncaught Illuminate\Contracts\Container\BindingResolutionException: Target [Spatie\Cors\CorsProfile\CorsProfile] is not instantiable while building [Spatie\Cors\Cors]. in /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Container/Container.php:918
+Stack trace:
+#0 /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->notInstantiable('Spatie\\Cors\\Cor...')
+#1 /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('Spatie\\Cors\\Cor...')
+#2 /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('Spatie\\Cors\\Cor...', Array)
+#3 /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(732): Illuminate\Container\Container->make('Spatie\\Cors\\Cor...', Array)
+#4 /home/wizzerco/api.wizzer.com.br/ven in /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 918
+[15-Feb-2019 16:14:58 UTC] PHP Fatal error:  Uncaught Illuminate\Contracts\Container\BindingResolutionException: Target [Spatie\Cors\CorsProfile\CorsProfile] is not instantiable while building [Spatie\Cors\Cors]. in /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Container/Container.php:918
+Stack trace:
+#0 /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->notInstantiable('Spatie\\Cors\\Cor...')
+#1 /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('Spatie\\Cors\\Cor...')
+#2 /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('Spatie\\Cors\\Cor...', Array)
+#3 /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(732): Illuminate\Container\Container->make('Spatie\\Cors\\Cor...', Array)
+#4 /home/wizzerco/api.wizzer.com.br/ven in /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 918
+[15-Feb-2019 16:15:07 UTC] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('view')
+#1 /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('view')
+#2 /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('view', Array)
+#3 /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(732): Illuminate\Container\Container->make('view', Array)
+#4 /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(110): Illuminate\Foundation\Application->make('view', Array)
+#5 /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminat in /home/wizzerco/api.wizzer.com.br/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[15-Feb-2019 17:55:32 UTC] PHP Warning:  POST Content-Length of 8978254 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[15-Feb-2019 17:59:35 UTC] PHP Warning:  POST Content-Length of 9871965 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[15-Feb-2019 18:07:26 UTC] PHP Warning:  POST Content-Length of 9871864 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[15-Feb-2019 18:11:33 UTC] PHP Warning:  POST Content-Length of 10592246 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[30-Apr-2019 18:05:46 America/Sao_Paulo] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[30-Apr-2019 18:09:35 America/Sao_Paulo] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[30-Apr-2019 18:21:14 America/Sao_Paulo] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[30-Apr-2019 18:23:40 America/Sao_Paulo] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[30-Apr-2019 18:26:01 America/Sao_Paulo] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[02-May-2019 09:48:00 America/Sao_Paulo] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[02-May-2019 09:48:25 America/Sao_Paulo] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[02-May-2019 09:48:30 America/Sao_Paulo] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[02-May-2019 09:50:33 America/Sao_Paulo] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[02-May-2019 09:50:49 America/Sao_Paulo] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[02-May-2019 09:51:23 America/Sao_Paulo] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
